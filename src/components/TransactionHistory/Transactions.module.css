@@ -1,0 +1,47 @@
+.transactionHistory {
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 1.2;
+	text-align: left;
+	box-shadow: 5px 2px 10px 4px rgb(177, 177, 177);
+	border: 2px solid rgb(145, 145, 145);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+thead {
+	background-color: rgb(145, 145, 145);
+	border-radius: 5px;
+	text-align: center;
+}
+
+table {
+	width: 500px;
+}
+
+tbody {
+	line-height: 1.5;
+}
+
+td {
+	padding: 5px;
+}
+
+tr:nth-of-type(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+td:nth-of-type(1) {
+	padding-left: 30px;
+	width: 140px;
+}
+
+td:nth-of-type(2) {
+	text-align: right;
+	padding-right: 70px;
+}
+
+td:nth-of-type(3) {
+	text-align: center;
+}
