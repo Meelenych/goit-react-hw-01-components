@@ -2,7 +2,6 @@ import styles from "./Profile.module.css";
 import PropTypes from "prop-types";
 
 function Profile({ avatar, name, tag, location, followers, views, likes }) {
-  // console.log(prop);
   return (
     <div className={styles.profile}>
       <div className={styles.description}>

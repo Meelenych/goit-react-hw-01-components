@@ -12,15 +12,13 @@ import friends from "./components/FriendList/friends.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import transactions from "./components/TransactionHistory/transactions.json";
 
-let {
+const {
   name,
   tag,
   location,
   avatar,
   stats: { followers, views, likes },
 } = user;
-
-// let { title, stats } = statisticalData;
 
 function App() {
   return (
